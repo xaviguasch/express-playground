@@ -15,8 +15,17 @@ app.get('/dog', function(req, res) {
     res.send('MEOW!!!!!')
 })
 
-app.get('/r/:subredditName', function(req, res) {    
-    res.send('Welcome to a subreddit!')
+app.get('/r/:subredditName', function(req, res) {
+    const subreddit = req.params.subredditName
+    console.log(req.params)
+       
+    res.send(`Welcome to the ${subreddit.toUpperCase()} subreddit, frendo!!!`)
+})
+
+app.get('/r/:subredditName/comments/:id/:title', function(req, res) {    
+    console.log(req.params);
+
+    res.send('Welcome to a subreddit post!')
 })
 
 app.get('*', function(req, res) {    
