@@ -1,0 +1,22 @@
+{
+  "name": "01-first-express-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaviguasch/express-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xaviguasch/express-playground/issues"
+  },
+  "homepage": "https://github.com/xaviguasch/express-playground#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
